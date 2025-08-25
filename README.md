@@ -20,18 +20,6 @@ Passwords are securely hashed using Werkzeug for safe storage.
 - **Werkzeug**: Provides password hashing for security.
 - **HTML + Bootstrap**: For frontend templates.
 
-### Registration Page
-![Registration](images/register.png)
-
-### Login Page
-![Login](images/login.png)
-
-### Dashboard
-![Dashboard](images/dashboard.png)
-
-### Delete Account
-![Delete](images/delete.png)
-
 ## Installation
 
 1. Clone the repository:
@@ -75,7 +63,16 @@ flask-auth-app/
    │  register.html
    │  login.html
    │  dashboard.html
-   
+
 ```
+### Registration Page
+![Registration](images/register.png)
+
+### Login Page
+![Login](images/login.png)
+
+### Dashboard
+![Dashboard](images/dashboard.png)
+
 ## ⭐ Show Some Love!
 If you like this project, **give it a star ⭐** and share it with your friends! 😊
