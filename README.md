@@ -36,7 +36,7 @@ Passwords are securely hashed using Werkzeug for safe storage.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/flask-auth-app.git
+   git clone https://github.com/vaishnav-reddy/Login-Flask.git
 
 ## Navigate to the project directory: 
 
@@ -61,6 +61,7 @@ Passwords are securely hashed using Werkzeug for safe storage.
 
 ## 📂 Project Structure
 
+```
 flask-auth-app/
 │  app.py
 │  requirements.txt
@@ -74,6 +75,7 @@ flask-auth-app/
    │  register.html
    │  login.html
    │  dashboard.html
-
+   
+```
 ## ⭐ Show Some Love!
 If you like this project, **give it a star ⭐** and share it with your friends! 😊

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>{% block title %}{% endblock %} | Flask Auth</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; background:#616367; margin:0; }
+    .card { max-width: 420px; margin: 60px auto; background:#fff; padding:24px;
+            border-radius:12px; box-shadow: 0 10px 25px rgba(0,0,0,.06); }
+    h1 { margin: 0 0 16px; font-size: 22px; }
+    .msg { color:#c00; margin-bottom: 12px; }
+    label { display:block; margin:12px 0 6px; font-size:14px; }
+    input { width:100%; padding:10px; border:1px solid #ddd; border-radius:8px; }
+    button { margin-top:16px; padding:10px 14px; border:0; border-radius:8px;
+             background:#0a84ff; color:#fff; cursor:pointer; }
+    a { color:#0a84ff; text-decoration:none; }
+    .linkrow { margin-top:12px; font-size:14px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>

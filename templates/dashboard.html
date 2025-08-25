@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h1>Welcome, {{ username }} 🎉</h1>
+<p>You are logged in.</p>
+
+<form method="post" action="{{ url_for('delete_account') }}">
+  <button type="submit" style="background:#e53935">Delete My Account</button>
+</form>
+
+<p><a href="{{ url_for('logout') }}">Log out</a></p>
+{% endblock %}
